@@ -38,6 +38,13 @@ As rotas são definidas como pontos GPS no arquivo `main.py`. Você pode adicion
 ### Este projeto está pronto para produção?
 Este é um protótipo e pode exigir testes adicionais e personalização para uso em produção. Certifique-se de seguir protocolos de segurança e regulamentações locais para drones.
 
+### Este sistema é autônomo ou precisa de controle manual?
+O sistema é projetado para ser autônomo, ou seja, os drones patrulham rotas predefinidas automaticamente, detectam objetos ou atividades suspeitas com IA e enviam alertas em tempo real sem intervenção constante. No entanto, alguns momentos requerem supervisão humana:
+- **Configuração inicial**: Para definir as rotas de patrulha e posicionar o drone.
+- **Manutenção**: Para monitorar a bateria, sensores e conectividade.
+- **Eventos excepcionais**: Caso o drone encontre obstáculos ou perca a conexão, pode ser necessário controle manual.
+Além disso, o sistema pode ser adaptado para incluir um modo de controle manual em situações de emergência ou monitoramento em tempo real.
+
 ### Posso contribuir para este projeto?
 Com certeza! Sinta-se à vontade para fazer um fork do repositório, sugerir melhorias ou enviar pull requests para tornar este sistema ainda melhor.
 
