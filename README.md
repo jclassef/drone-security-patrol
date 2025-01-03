@@ -1,14 +1,24 @@
 # drone-security-patrol
-Sistema de Patrulha de Segurança com Drones projetado para automatizar a vigilância utilizando drones equipados com detecção de objetos baseada em IA
 # Sistema de Patrulha de Segurança com Drones
 
 ## Introdução
-O Sistema de Patrulha de Segurança com Drones é uma solução inovadora projetada para automatizar a vigilância utilizando drones equipados com detecção de objetos baseada em IA. Aproveitando drones DJI, detecção de objetos com YOLO e sistemas de alerta em tempo real, este projeto visa aumentar a segurança em áreas industriais, fazendas e grandes propriedades. O sistema permite que drones patrulhem rotas predefinidas, detectem atividades suspeitas e notifiquem as equipes de segurança instantaneamente. Ele reduz custos operacionais, melhora a eficiência e oferece uma forma mais inteligente de proteger seus bens.
+O Sistema de Patrulha de Segurança com Drones é uma solução inovadora projetada para automatizar a vigilância utilizando drones equipados com detecção de objetos baseada em IA. Aproveitando drones DJI, detecção de objetos com YOLO e sistemas de alerta em tempo real, este projeto visa aumentar a segurança em diversas áreas que possuem perímetro de segurança estabelecido e necessitam de vigilância constante, tais como:
+
+- Estabelecimentos de segurança pública ou privada.
+- Eventos públicos e shows
+- Prédios públicos
+- Condomínios residenciais
+- Aglomerações e manifestações
+- Áreas industriais
+- Fazendas
+- Grandes propriedades
+
+O sistema permite que drones patrulhem rotas predefinidas, detectem atividades suspeitas e notifiquem as equipes de segurança instantaneamente. Ele reduz custos operacionais, melhora a eficiência e oferece uma forma mais inteligente de proteger pessoas e bens.
 
 ---
 
 ## Funcionalidades
-- **Patrulha Automatizada**: Drones navegam autonomamente por pontos predefinidos.
+- **Patrulha Automatizada**: Drones navegam autonomamente por pontos predefinidos e horários pré estabelecidos.
 - **Detecção de Objetos com IA**: Detecta e identifica objetos em tempo real usando YOLO.
 - **Alertas em Tempo Real**: Envia notificações com imagens quando ameaças são detectadas.
 - **Solução Escalável**: Projetado para integrar vários drones e cobrir grandes áreas.
@@ -18,10 +28,10 @@ O Sistema de Patrulha de Segurança com Drones é uma solução inovadora projet
 ## FAQ
 
 ### Qual é o objetivo deste projeto?
-O objetivo é fornecer uma forma eficiente e econômica de aumentar a segurança de propriedades automatizando patrulhas e detecção de ameaças com drones e IA.
+O objetivo é fornecer uma forma eficiente e econômica de aumentar a segurança em estabelecimentos e propriedades que necessitam de monitoramento constante, automatizando patrulhas e detectando ameaças com uso de drones com sistema de IA (inteligência artificial) embarcados.
 
 ### Quais drones são suportados?
-Atualmente, o projeto é projetado para drones DJI usando um SDK hipotético. Você pode adaptar o código para outras plataformas de drones modificando o módulo `DroneController`.
+Atualmente, o projeto é projetado para drones DJI usando um SDK DJI Mobile SDK (MSDK) ou o DJI Onboard SDK (OSDK), dependendo de como se pretende implementar o sistema. Você pode adaptar o código para outras plataformas de drones modificando o módulo `DroneController`.
 
 ### Como funciona a detecção de objetos?
 O sistema utiliza o YOLO (You Only Look Once), um modelo popular de aprendizado profundo para detecção de objetos em tempo real. Objetos detectados são destacados em imagens e registrados.
